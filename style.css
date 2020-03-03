@@ -85,6 +85,7 @@ img{
   .row{
     margin: 0;
     padding-bottom: 50px;
+    width: auto;
   }
 
   img {
@@ -106,7 +107,6 @@ img{
   #steps .row > .right {
     display: block;
     float: none;
-    width: auto;
     margin: auto;
     padding-bottom: 50px;
   }
@@ -114,6 +114,7 @@ img{
   .row{
     margin: 0;
     padding-bottom: 60px;
+    width: auto;
   }
 
   img {
@@ -128,12 +129,11 @@ img{
     padding: 0;
     text-align: center;
   }
-
-
 }
 
 @media screen and (min-width: 550px) and (max-width: 1200px) {
   #steps .row,
   #why .row {
+    background-color: #f9f9f9;
   }
 }
