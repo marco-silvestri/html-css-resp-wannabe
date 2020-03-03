@@ -65,3 +65,36 @@ img{
 .clear {
   clear:both;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    display: block;
+    float: none;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .row{
+    margin: 0;
+    padding-bottom: 50px;
+  }
+
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+  }
+}
